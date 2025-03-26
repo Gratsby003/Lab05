@@ -17,7 +17,4 @@ def get_connection() -> mysql.connector.connection:
         else:
             print(err)
             return None
-
-
-class DBConnect:
-    pass
+    return cnx
